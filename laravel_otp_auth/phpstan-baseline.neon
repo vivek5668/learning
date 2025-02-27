@@ -1,0 +1,415 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Call to an undefined method Illuminate\\Contracts\\Auth\\Guard\:\:attempt\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Http/Controllers/AdminAuthController.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Contracts\\Auth\\Guard\:\:logout\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Http/Controllers/AdminAuthController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\AdminAuthController\:\:login\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: app/Http/Controllers/AdminAuthController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\AdminAuthController\:\:logout\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: app/Http/Controllers/AdminAuthController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\AdminAuthController\:\:showLoginForm\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: app/Http/Controllers/AdminAuthController.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Student\:\:\$email\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Http/Controllers/AdminController.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Student\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/AdminController.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Student\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/AdminController.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Student\:\:\$password\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/AdminController.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Student\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/AdminController.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Http\\Request\:\:\$email\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Http/Controllers/AdminController.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Http\\Request\:\:\$message\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Http/Controllers/AdminController.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Http\\Request\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Http/Controllers/AdminController.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Http\\Request\:\:\$password\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Http/Controllers/AdminController.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Http\\Request\:\:\$subject\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Http/Controllers/AdminController.php
+
+		-
+			message: '#^Binary operation "\." between ''%%'' and mixed results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 2
+			path: app/Http/Controllers/AdminController.php
+
+		-
+			message: '#^Binary operation "\." between ''Email sent to '' and mixed results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 1
+			path: app/Http/Controllers/AdminController.php
+
+		-
+			message: '#^Binary operation "\." between ''required\|string…'' and mixed results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 1
+			path: app/Http/Controllers/AdminController.php
+
+		-
+			message: '#^Call to an undefined static method App\\Models\\Student\:\:create\(\)\.$#'
+			identifier: staticMethod.notFound
+			count: 1
+			path: app/Http/Controllers/AdminController.php
+
+		-
+			message: '#^Call to an undefined static method App\\Models\\Student\:\:when\(\)\.$#'
+			identifier: staticMethod.notFound
+			count: 1
+			path: app/Http/Controllers/AdminController.php
+
+		-
+			message: '#^Cannot call method orWhere\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/Http/Controllers/AdminController.php
+
+		-
+			message: '#^Cannot call method paginate\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/Http/Controllers/AdminController.php
+
+		-
+			message: '#^Cannot call method when\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 3
+			path: app/Http/Controllers/AdminController.php
+
+		-
+			message: '#^Cannot call method where\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 2
+			path: app/Http/Controllers/AdminController.php
+
+		-
+			message: '#^Cannot call method whereDate\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 2
+			path: app/Http/Controllers/AdminController.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 1
+			path: app/Http/Controllers/AdminController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\AdminController\:\:ajax\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: app/Http/Controllers/AdminController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\AdminController\:\:create\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: app/Http/Controllers/AdminController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\AdminController\:\:destroy\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: app/Http/Controllers/AdminController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\AdminController\:\:edit\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: app/Http/Controllers/AdminController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\AdminController\:\:index\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: app/Http/Controllers/AdminController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\AdminController\:\:sendEmailToAll\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: app/Http/Controllers/AdminController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\AdminController\:\:sendEmailToStudent\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: app/Http/Controllers/AdminController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\AdminController\:\:store\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: app/Http/Controllers/AdminController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\AdminController\:\:update\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: app/Http/Controllers/AdminController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\AdminController\:\:updateStatus\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: app/Http/Controllers/AdminController.php
+
+		-
+			message: '#^Parameter \#1 \$value of function bcrypt expects string, mixed given\.$#'
+			identifier: argument.type
+			count: 2
+			path: app/Http/Controllers/AdminController.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Http\\Request\:\:\$email\.$#'
+			identifier: property.notFound
+			count: 3
+			path: app/Http/Controllers/AuthController.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Http\\Request\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/AuthController.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Http\\Request\:\:\$otp\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/AuthController.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Http\\Request\:\:\$password\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Http/Controllers/AuthController.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Contracts\\Auth\\Guard\:\:attempt\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Http/Controllers/AuthController.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Contracts\\Auth\\Guard\:\:logout\(\)\.$#'
+			identifier: method.notFound
+			count: 2
+			path: app/Http/Controllers/AuthController.php
+
+		-
+			message: '#^Call to an undefined static method App\\Models\\Student\:\:create\(\)\.$#'
+			identifier: staticMethod.notFound
+			count: 1
+			path: app/Http/Controllers/AuthController.php
+
+		-
+			message: '#^Call to an undefined static method App\\Models\\Student\:\:where\(\)\.$#'
+			identifier: staticMethod.notFound
+			count: 2
+			path: app/Http/Controllers/AuthController.php
+
+		-
+			message: '#^Cannot access property \$email on mixed\.$#'
+			identifier: property.nonObject
+			count: 2
+			path: app/Http/Controllers/AuthController.php
+
+		-
+			message: '#^Cannot access property \$status on Illuminate\\Contracts\\Auth\\Authenticatable\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: app/Http/Controllers/AuthController.php
+
+		-
+			message: '#^Cannot call method first\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 2
+			path: app/Http/Controllers/AuthController.php
+
+		-
+			message: '#^Cannot call method store\(\) on array\<Illuminate\\Http\\UploadedFile\>\|Illuminate\\Http\\UploadedFile\|null\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/Http/Controllers/AuthController.php
+
+		-
+			message: '#^Cannot call method update\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 2
+			path: app/Http/Controllers/AuthController.php
+
+		-
+			message: '#^Cannot call method where\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 2
+			path: app/Http/Controllers/AuthController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\AuthController\:\:login\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: app/Http/Controllers/AuthController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\AuthController\:\:logout\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: app/Http/Controllers/AuthController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\AuthController\:\:register\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: app/Http/Controllers/AuthController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\AuthController\:\:resetPassword\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: app/Http/Controllers/AuthController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\AuthController\:\:sendOTP\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: app/Http/Controllers/AuthController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\AuthController\:\:showForgotPasswordForm\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: app/Http/Controllers/AuthController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\AuthController\:\:showLoginForm\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: app/Http/Controllers/AuthController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\AuthController\:\:showRegisterForm\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: app/Http/Controllers/AuthController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\AuthController\:\:showResetPasswordForm\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: app/Http/Controllers/AuthController.php
+
+		-
+			message: '#^Parameter \#1 \$student of class App\\Mail\\SendOTP constructor expects App\\Models\\Student, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/Http/Controllers/AuthController.php
+
+		-
+			message: '#^Parameter \#1 \$value of function bcrypt expects string, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/Http/Controllers/AuthController.php
+
+		-
+			message: '#^Parameter \#1 \$value of static method Illuminate\\Support\\Facades\\Hash\:\:make\(\) expects string, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/Http/Controllers/AuthController.php
+
+		-
+			message: '#^Parameter \#2 \$otp of class App\\Mail\\SendOTP constructor expects string, int\<100000, 999999\> given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/Http/Controllers/AuthController.php
+
+		-
+			message: '#^Call to an undefined static method App\\Models\\User\:\:find\(\)\.$#'
+			identifier: staticMethod.notFound
+			count: 1
+			path: app/Http/Controllers/UserController.php
+
+		-
+			message: '#^Cannot call method delete\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/Http/Controllers/UserController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\UserController\:\:delete\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: app/Http/Controllers/UserController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\UserController\:\:delete\(\) has parameter \$id with no type specified\.$#'
+			identifier: missingType.parameter
+			count: 1
+			path: app/Http/Controllers/UserController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\UserController\:\:index\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: app/Http/Controllers/UserController.php
