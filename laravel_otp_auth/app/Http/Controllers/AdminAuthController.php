@@ -17,6 +17,7 @@ class AdminAuthController extends Controller
         // dd($request->all());
         $credentials = $request->only('email', 'password');
         // dd($credentials);
+        //
         if (Auth::guard('admin')->attempt($credentials)) {
             return redirect()->intended('/admin/students');
         }
